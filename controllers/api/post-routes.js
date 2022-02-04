@@ -1,13 +1,21 @@
 const router = require('express').Router();
 const req = require('express/lib/request');
 const res = require('express/lib/response');
-const { Post, User } = require('../../models');
+const { Post, User, Comment } = require('../../models');
 
 router.get('/', (req, res) => {
   Post.findAll({
-    attributes: ['id', 'post_content', 'title', 'created_at'],
+    attributes: ['id', 'title', 'post_content', 'created_at'],
     order: [['created_at', 'DESC']],
     include: [
+      {
+        model: Comment,
+        attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+        include: {
+          model: User,
+          attributes: ['username']
+        }
+      },
       {
         model: User,
         attributes: ['username']
@@ -29,6 +37,14 @@ router.get('/:id', (req, res) => {
     attributes: ['id', 'post_content', 'title', 'created_at'],
     include: [
       {
+        model: Comment,
+        attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+        include: {
+          model: User,
+          attributes: ['username']
+        }
+      },
+      {
         model: User,
         attributes: ['username']
       }
@@ -36,7 +52,7 @@ router.get('/:id', (req, res) => {
   })
   .then(dbPostData => {
     if(!dbPostData) {
-      res.status(404).json({ message: 'No post with that id'});
+      res.status(404).json({ message: 'No post found with that id'});
       return;
     }
     res.json(dbPostData);
