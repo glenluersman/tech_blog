@@ -34,8 +34,7 @@ The Tech Blog is a full stack application that allows developers to post and com
 1. Clone the repository from GitHub.
 2. Create a .env file with your MySQL credentials.
 3. Run the command: npm install.
-4. Start MySQL and run the command: source db/schema.sql.
-   Exit MySQL.
+4. Start MySQL and run the command: source db/schema.sql. Exit MySQL.
 5. Start the server by running the command: npm start.
 6. Open the browser and navigate to http://localhost:3001/
 
