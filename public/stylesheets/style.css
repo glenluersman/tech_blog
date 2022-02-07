@@ -1,0 +1,230 @@
+header {
+  background-color: rgb(36, 27, 27);
+}
+
+h1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(36, 27, 27);
+  background-color: rgb(209, 236, 209);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(209, 236, 209);
+  font-weight: bold;
+  transition: color 0.1s;
+  margin-left: 16px;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(133, 190, 133);
+}
+
+.page-title {
+  background-color: rgb(36, 27, 27);
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  transition: color 0.1s;
+  margin-left: 16px;
+}
+
+.btn-no-style:hover {
+  background: none;
+  color: rgb(133, 190, 133);
+}
+
+main {
+  background-color: rgb(209, 236, 209);
+  height: auto;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 10px 30px;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  padding: 0 30px 0 30px;
+}
+
+.content {
+  border: 3px solid rgb(36, 27, 27);
+  padding: 5px 30px;
+  font-size: 19px;
+}
+
+.login {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  margin: 15px 15px 0 15px;
+  height: 50px;
+}
+
+.login h3 {
+  padding-top: 8px;
+  padding-left: 45px;
+}
+
+.login-form {
+  margin: 15px;
+  margin-top: 0;
+  padding: 15px;
+  border: 3px solid rgb(36, 27, 27);
+}
+
+.login-form a {
+  color: rgb(36, 27, 27);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.login-form a:hover {
+  color: rgb(121, 107, 107);
+}
+
+.login-form button {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 95%;
+  margin: 10px 30px;
+}
+
+.login-form button:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+.login-form input {
+  width: 95%;
+  margin: 10px 30px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.login-form label {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.signup {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  margin: 15px 15px 0 15px;
+  height: 50px;
+}
+
+.signup h3 {
+  padding-top: 8px;
+  padding-left: 45px;
+}
+
+.signup-form {
+  margin: 15px;
+  margin-top: 0;
+  padding: 15px;
+  border: 3px solid rgb(36, 27, 27);
+}
+
+.signup-form a {
+  color: rgb(36, 27, 27);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.signup-form a:hover {
+  color: rgb(121, 107, 107);
+}
+
+.signup-form button {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 95%;
+  margin: 10px 30px;
+}
+
+.signup-form button:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+.signup-form input {
+  width: 95%;
+  margin: 10px 30px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.signup-form label {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.new-post {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.post-btn {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.post-btn:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+footer {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  padding: 30px 0 30px 16px;
+}

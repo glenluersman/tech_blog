@@ -1,0 +1,13 @@
+<div class="page-title">
+<h1>Your Dashboard</h1>
+</div>
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>
+<div class="new-post">
+  <button type="button" class="post-btn">+ New Post</button>
+</div>
