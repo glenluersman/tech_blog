@@ -44,6 +44,10 @@ a:hover {
   flex-direction: column;
 }
 
+.btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .btn-no-style {
   background: none;
   border: none;
