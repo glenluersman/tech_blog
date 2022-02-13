@@ -1,20 +1,13 @@
 <div class="page-title">
   <h1>The Tech Blog</h1>
 </div>
-<div class="comments">
-  {{#each this}}
-  <article class="comment">
-    <div class="title">
-      <h2></h2>
-    </div>
-    <div class="content">
-      <p>{{comment_text}}</p>
-      <p>- {{user.username}} on {{format_date created_at}}</p> 
-    </div>
-  </article>
-  {{/each}}
-</div>
-<form class="comment">
+
+{{> post-info post}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<form class="comment-form">
   <div class="title">
     <h2></h2>
   </div>
@@ -24,5 +17,7 @@
     <button type="submit">Submit</button>
   </div>
 </form>
+{{/if}}
+
 
 <script src="/javascript/comment.js"></script>
