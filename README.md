@@ -61,10 +61,16 @@ The Tech Blog is a full stack application and once the server is started everyth
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog3.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog4.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog5.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog6.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog1.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog7.PNG" ></a>
