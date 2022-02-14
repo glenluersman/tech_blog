@@ -34,8 +34,7 @@ The Tech Blog is a full stack application that allows developers to post and com
 1. Clone the repository from GitHub.
 2. Create a .env file with your MySQL credentials.
 3. Run the command: npm install.
-4. Start MySQL and run the command: source db/schema.sql.
-   Exit MySQL.
+4. Start MySQL and run the command: source db/schema.sql. Exit MySQL.
 5. Start the server by running the command: npm start.
 6. Open the browser and navigate to http://localhost:3001/
 
@@ -62,10 +61,16 @@ The Tech Blog is a full stack application and once the server is started everyth
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog3.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog4.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/tech-blog5.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog6.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog1.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/tech-blog7.PNG" ></a>

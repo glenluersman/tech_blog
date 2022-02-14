@@ -1,0 +1,23 @@
+<div class="page-title">
+  <h1>The Tech Blog</h1>
+</div>
+
+{{> post-info post}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<form class="comment-form">
+  <div class="title">
+    <h2></h2>
+  </div>
+  <div class="content">
+    <label for="comment">Comment:</label>
+    <textarea name="comment-body" id="comment-text"></textarea>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+{{/if}}
+
+
+<script src="/javascript/comment.js"></script>

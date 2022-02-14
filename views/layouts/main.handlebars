@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
     <title>The Tech Blog</title>
 </head>
 <body>
@@ -19,7 +19,6 @@
                 <a href="/login">Login</a>
                 {{/if}}
             </nav>
-            <h1>The Tech Blog</h1>
         </header>
         <main>
             {{{body}}}
@@ -28,8 +27,8 @@
             Thanks for visiting!
         </footer>
     </div>
-    {{#if loggedIn}}
-    <script src=""></script>
-    {{/if}}
+    
+    <script src="/javascript/logout.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,16 @@
+<div class="page-title">
+  <h1>Your Dashboard</h1>
+</div>
+<ol class="post-list">
+  {{#each posts as |post|}}
+    <a href="/dashboard/edit/{{id}}">
+      <div class="link">
+        <span class="title-span">{{title}}</span><span class="date">{{format_date created_at}}</span>
+      </div>
+    </a>
+  {{/each}}
+<div class="new-post">
+  <a href="/dashboard/new">
+    <button type="submit" class="post-btn">+ New Post</button>
+  </a>
+</div>
