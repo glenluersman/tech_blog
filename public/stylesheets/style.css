@@ -31,6 +31,29 @@ a:hover {
   color: rgb(133, 190, 133);
 }
 
+main {
+  background-color: rgb(209, 236, 209);
+  height: auto;
+}
+
+span {
+  margin: 30px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  padding: 30px 0 30px 16px;
+}
+
 .page-title {
   background-color: rgb(36, 27, 27);
 }
@@ -66,10 +89,6 @@ a:hover {
   color: rgb(133, 190, 133);
 }
 
-main {
-  background-color: rgb(209, 236, 209);
-  height: auto;
-}
 
 .post-list {
   list-style-type: none;
@@ -102,6 +121,10 @@ main {
   font-size: 19px;
 }
 
+.content textarea {
+  border-radius: 8px;
+}
+
 .content button {
   border-radius: 8px;
   background-color: rgb(36, 27, 27);
@@ -112,6 +135,131 @@ main {
 }
 
 .content button:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(121, 107, 107);
+  border-radius: 8px;
+  margin: 0 30px 10px 30px;
+  height: 60px;
+}
+
+.link:hover {
+  background-color: rgb(36, 27, 27);
+}
+
+
+.update-post-btn {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 96%;
+  margin: 10px 30px;
+}
+
+.update-post-btn:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+.delete-post-btn {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 96%;
+  margin: 10px 30px;
+}
+
+.delete-post-btn:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+
+.auth {
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  margin: 15px 15px 0 15px;
+  height: 50px;
+}
+
+.auth h3 {
+  padding-top: 8px;
+  padding-left: 45px;
+}
+
+.form {
+  margin: 15px;
+  margin-top: 0;
+  padding: 15px;
+  border: 3px solid rgb(36, 27, 27);
+}
+
+.form a {
+  color: rgb(36, 27, 27);
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.form a:hover {
+  color: rgb(121, 107, 107);
+}
+
+.form button {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 96%;
+  margin: 10px 30px;
+}
+
+.form button:hover {
+  background-color: rgb(121, 107, 107);
+  color: rgb(133, 190, 133);
+}
+
+.form input {
+  width: 95%;
+  margin: 10px 30px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form label {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.new-post {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.new-post-btn {
+  border-radius: 8px;
+  background-color: rgb(36, 27, 27);
+  color: rgb(209, 236, 209);
+  font-size: 25px;
+  width: 96%;
+  margin: 10px 30px;
+}
+
+.new-post-btn:hover {
   background-color: rgb(121, 107, 107);
   color: rgb(133, 190, 133);
 }
@@ -172,196 +320,6 @@ main {
   font-size: 20px;
 }
 
-.new-post-btn {
-  border-radius: 8px;
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  width: 96%;
-  margin: 10px 30px;
-}
-
-.new-post-btn:hover {
-  background-color: rgb(121, 107, 107);
-  color: rgb(133, 190, 133);
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(121, 107, 107);
-  border-radius: 8px;
-  margin: 0 30px 10px 30px;
-  height: 60px;
-}
-
-.link:hover {
-  background-color: rgb(36, 27, 27);
-}
-
-span {
-  margin: 30px;
-}
-
-.update-post-btn {
-  border-radius: 8px;
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  width: 96%;
-  margin: 10px 30px;
-}
-
-.update-post-btn:hover {
-  background-color: rgb(121, 107, 107);
-  color: rgb(133, 190, 133);
-}
-
-.delete-post-btn {
-  border-radius: 8px;
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  width: 96%;
-  margin: 10px 30px;
-}
-
-.delete-post-btn:hover {
-  background-color: rgb(121, 107, 107);
-  color: rgb(133, 190, 133);
-}
-
-textarea {
-  width: 100%;
-  min-height: 100px;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.login {
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  margin: 15px 15px 0 15px;
-  height: 50px;
-}
-
-.login h3 {
-  padding-top: 8px;
-  padding-left: 45px;
-}
-
-.login-form {
-  margin: 15px;
-  margin-top: 0;
-  padding: 15px;
-  border: 3px solid rgb(36, 27, 27);
-}
-
-.login-form a {
-  color: rgb(36, 27, 27);
-  font-size: 20px;
-  margin-left: 30px;
-}
-
-.login-form a:hover {
-  color: rgb(121, 107, 107);
-}
-
-.login-form button {
-  border-radius: 8px;
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  width: 96%;
-  margin: 10px 30px;
-}
-
-.login-form button:hover {
-  background-color: rgb(121, 107, 107);
-  color: rgb(133, 190, 133);
-}
-
-.login-form input {
-  width: 95%;
-  margin: 10px 30px;
-  height: 40px;
-  border-radius: 8px;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.login-form label {
-  margin-left: 30px;
-  font-size: 20px;
-}
-
-.signup {
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  margin: 15px 15px 0 15px;
-  height: 50px;
-}
-
-.signup h3 {
-  padding-top: 8px;
-  padding-left: 45px;
-}
-
-.signup-form {
-  margin: 15px;
-  margin-top: 0;
-  padding: 15px;
-  border: 3px solid rgb(36, 27, 27);
-}
-
-.signup-form a {
-  color: rgb(36, 27, 27);
-  font-size: 20px;
-  margin-left: 30px;
-}
-
-.signup-form a:hover {
-  color: rgb(121, 107, 107);
-}
-
-.signup-form button {
-  border-radius: 8px;
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  width: 96%;
-  margin: 10px 30px;
-}
-
-.signup-form button:hover {
-  background-color: rgb(121, 107, 107);
-  color: rgb(133, 190, 133);
-}
-
-.signup-form input {
-  width: 95%;
-  margin: 10px 30px;
-  height: 40px;
-  border-radius: 8px;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.signup-form label {
-  margin-left: 30px;
-  font-size: 20px;
-}
-
-.new-post {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: 20px;
-}
-
 .post-btn {
   background-color: rgb(36, 27, 27);
   color: rgb(209, 236, 209);
@@ -375,9 +333,93 @@ textarea {
   color: rgb(133, 190, 133);
 }
 
-footer {
-  background-color: rgb(36, 27, 27);
-  color: rgb(209, 236, 209);
-  font-size: 25px;
-  padding: 30px 0 30px 16px;
+
+@media screen and (max-width: 820px) {
+  .form input {
+    width: 90%;
+  }
+
+  .form button {
+    width: 91%;
+  }
+
+  .new-post-form input {
+    width: 90%;
+  }
+
+  .new-post-form textarea {
+    width: 90%;
+  }
+
+  .new-post-form button {
+    width: 91%;
+  }
+
+  .edit-post-form textarea {
+    width: 90%;
+  }
+
+  .edit-post-form input {
+    width: 90%;
+  }
+
+  .edit-post-form button {
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .form input {
+    width: 80%;
+  }
+
+  .form button {
+    width: 82%;
+  }
+
+  .new-post-form {
+    padding: 5px 5px;
+  }
+
+  .new-post-form input {
+    width: 80%;
+  }
+
+  .new-post-form textarea {
+    width: 80%;
+  }
+
+  .new-post-form button {
+    width: 82%;
+  }
+
+  .link {
+    justify-content: space-evenly;
+    height: 150px;
+    margin: 0 0 10px 0;
+  }
+
+  .post {
+    padding: 10px 10px;
+  }
+
+  .post-list {
+    padding: 10px 10px;
+  }
+
+  .post-form {
+    padding: 10px 10px;
+  }
+
+  .edit-post-form input {
+    width: 80%;
+  }
+
+  .edit-post-form textarea {
+    width: 80%;
+  }
+
+  .edit-post-form button {
+    width: 82%;
+  }
 }
